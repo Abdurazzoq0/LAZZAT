@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    background-image: url(./chef-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.text{
+    font-weight: bold;
+    text-transform: lowercase;
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+    background-color: white;
+    border: 1px solid grey;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 12px 24px;
+    position: relative;
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.menu li:hover{
+    background-color: #999;
+    cursor: pointer;
+}
+.menu2{
+    background-color: blue;
+    left: 2px;
+    top: 43px;
+    display: none;
+    position: absolute;
+}
+.menu2 li{
+    display: block;
+}
+.menu li:hover .menu2{
+    display: block;
+}.menu3{
+    background-color: blue ;
+    left: 0px;
+    top: 43px;
+    display: none;
+    position: absolute;
+}
+.menu3 li{
+    display: block;
+}
+.menu li:hover .menu3{
+    display: block;
+}
+.menu4 {
+    background-color: blue;
+    left: 0px;
+    top: 43px;
+    display: none;
+    position: absolute;
+}
+.menu4 li{
+    display: block;
+}
+.menu li:hover .menu4{
+    display: block;
+}
+.menu5 {
+    background-color: blue;
+    left: 0px;
+    top: 43px;
+    display: none;
+    position: absolute;
+}
+.menu5 li{
+    display: block;
+}
+.menu li:hover .menu5{
+    display: block;
+}
+.box1{
+    width: 30%;
+    margin: 80px 20px ;
+    height: 250px;
+}
+.box1 img{
+    width: 100%;
+}
+.box .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;}
+.box1 h1{
+    background-color: yellow;
+}
+.box h2{
+    color: blue;
+}
